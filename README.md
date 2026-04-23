@@ -124,3 +124,10 @@ Folgende Komponenten werden nur benötigt wenn ihr das USB Kabel nicht direkt am
 
 Nach dem Flashen startet das Display automatisch.
 
+---
+
+Erstinstallation:
+→ FULL.bin verwenden
+
+Updates:
+→ normale .bin (ohne FULL) möglich
