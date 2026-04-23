@@ -147,6 +147,7 @@ Das AMS Display ermöglicht die komfortable Verwaltung von Filament-Spulen direk
 * Anzeige aller AMS Slots (4 oder 8)
 * Jede Kachel entspricht einem Slot
 * Farbe zeigt Material / Status
+* Spulen Bitmap zeigt Material / Status
 
 ---
 
