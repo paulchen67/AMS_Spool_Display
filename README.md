@@ -131,3 +131,211 @@ Erstinstallation:
 
 Updates:
 → normale .bin (ohne FULL) möglich
+
+---
+
+## 📖 Bedienungsanleitung – AMS Display
+
+Das AMS Display ermöglicht die komfortable Verwaltung von Filament-Spulen direkt am Gerät oder über die Weboberfläche.
+
+---
+
+# 🖥️ **Display Bedienung**
+
+## 🔹 Übersicht
+
+* Anzeige aller AMS Slots (4 oder 8)
+* Jede Kachel entspricht einem Slot
+* Farbe zeigt Material / Status
+
+---
+
+## 👆 **Touch Funktionen**
+
+### 🔸 Kurzer Touch auf Slot
+
+Öffnet das **NumPad zum Abziehen von Gewicht**
+
+* gewünschte Gramm eingeben
+* „OK“ bestätigt
+* Gewicht wird von der Spule abgezogen
+
+---
+
+### 🔸 Langer Touch auf Slot
+
+Öffnet die **Spulen-Detailansicht**
+
+Anzeige von:
+
+* Spulennummer
+* Material / Typ
+* Farbe
+* Hersteller
+* Gewicht
+
+---
+
+### 🔸 Im Spulen-Popup
+
+* ❌ **X** → schließt das Fenster
+* 🔁 **Tauschen** → öffnet Swap-NumPad
+
+---
+
+## 🔁 **Spulen tauschen (Swap)**
+
+1. Spule auswählen (lange drücken)
+2. „Tauschen“ drücken
+3. Ziel-Spule eingeben (NumPad)
+4. „OK“ bestätigen
+
+👉 Die beiden Spulen werden getauscht
+
+---
+
+## 🔢 **NumPad Funktionen**
+
+* Zahlen → Eingabe
+* DEL → löscht letzte Zahl
+* OK → bestätigt
+* X → abbricht
+
+---
+
+# 🌐 **WebUI Bedienung**
+
+Die Weboberfläche ist über die IP-Adresse des Geräts erreichbar.
+
+---
+
+## 🔹 Übersicht
+
+* Anzeige aller Spulen
+* Filter:
+
+  * Alle
+  * AMS (aktive Slots)
+  * Lager
+
+---
+
+## 🔹 Bedienung der Kacheln
+
+👉 Jede Kachel hat drei Hauptfunktionen:
+
+* **Touch auf Kachel**
+  → Öffnet das Eingabefeld zum **Abziehen von Gewicht**
+
+* **Button „Tauschen“**
+  → Startet den **Spulentausch (Swap)**
+
+* **Button „Edit“**
+  → Öffnet die Bearbeitung der **Spulendaten**
+
+---
+
+## 🔹 Spulen bearbeiten (Edit)
+
+👉 Im Edit-Popup können folgende Daten angepasst werden:
+
+* Material
+* Typ
+* Farbe
+* Artikelnummer
+* Hersteller
+
+---
+
+## 🔹 „Leer“ Funktion
+
+* Checkbox „Leer“ aktivieren
+* Spule wird als leer markiert
+
+👉 Anzeige:
+
+```text id="anm7f3"
+Leer (Spule X)
+```
+
+---
+
+## 🔹 Import / Export
+
+* 📤 Export → Spulenliste als Datei speichern
+* 📥 Import → Spulenliste laden
+
+---
+
+## 🔹 WLAN Setup
+
+* SSID und Passwort eingeben
+* Gerät startet neu
+* verbindet sich automatisch
+
+---
+
+# 📡 **WLAN Verhalten**
+
+* Beim ersten Start: Access Point (Setup-Modus)
+* nach Einrichtung: Verbindung zum WLAN
+* bei Fehler: Rückfall in AP-Modus
+
+---
+
+# 📶 **WLAN Status Anzeige**
+
+* 🟢 Verbunden → WLAN + IP
+* 🔴 AP Modus → Setup Netzwerk aktiv
+
+---
+
+# 🔗 **MQTT Funktionen (optional)**
+
+Wenn MQTT aktiviert ist:
+
+* Übertragung von:
+
+  * Spulendaten
+  * Gewichten
+  * Status
+
+* Integration möglich mit:
+
+  * Home Assistant
+  * Node-RED
+  * eigene Systeme
+
+---
+
+## 🔹 Möglichkeiten
+
+* Automatische Überwachung
+* Logging von Filamentverbrauch
+* Smart Home Integration
+
+---
+
+# 💡 **Hinweise**
+
+* Slots sind unabhängig von Spulen
+* Spulen können flexibel getauscht werden
+* Daten werden dauerhaft gespeichert (LittleFS)
+
+---
+
+# ⚠️ **Tipps**
+
+* Gewichtsänderungen immer mit OK bestätigen
+* Beim Tauschen richtige Spulennummer eingeben
+* WLAN Daten korrekt eingeben (Groß-/Kleinschreibung)
+
+---
+
+# ❤️ **Support**
+
+Bei Fragen oder Problemen:
+
+* GitHub Repository nutzen
+* Feedback willkommen
+
