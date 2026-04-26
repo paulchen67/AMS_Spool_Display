@@ -64,6 +64,8 @@ Ideal für alle, die ihre Filamente direkt am Drucker verwalten möchten.
 ### 💡 Hinweis
 
 Das Projekt befindet sich in aktiver Weiterentwicklung und kann flexibel erweitert oder angepasst werden.
+Die Dateien für den 3D Drucker sind hier zu finden:
+https://makerworld.com/de/models/2694167-ams-display-smart-filament-management-for-ams?from=search#profileId-2985665
 
 ---
 
