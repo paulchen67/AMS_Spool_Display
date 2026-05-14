@@ -105,34 +105,94 @@ Folgende Komponenten werden nur benötigt wenn ihr das USB Kabel nicht direkt am
 
 ---
 
-### 🔧 Firmware Flash Anleitung
+# 🔧 Firmware Flash Anleitung
 
-1. ESP32-S3 per USB anschließen
+## ESP32-S3 flashen
 
-2. Webseite öffnen:
-   https://espressif.github.io/esptool-js/
+### 1. ESP32-S3 per USB anschließen
 
-3. „Connect“ klicken und den richtigen COM-Port auswählen
-
-4. Firmware Datei auswählen:
-   **AMS_Display_V1.8_FULL.bin**
-
-5. Flash-Adresse setzen:
-   **0x0**
-
-6. „Program“ klicken und warten bis der Vorgang abgeschlossen ist
+Den ESP32-S3 über USB mit dem PC verbinden.
 
 ---
 
-Nach dem Flashen startet das Display automatisch.
+### 2. Web Flasher öffnen
+
+Folgende Webseite im Browser öffnen:
+
+https://espressif.github.io/esptool-js/
 
 ---
 
-Erstinstallation:
-→ FULL.bin verwenden
+### 3. Verbinden
 
-Updates:
-→ normale .bin (ohne FULL) möglich
+* Auf **Connect** klicken
+* Den richtigen COM-Port auswählen
+* Verbindung bestätigen
+
+---
+
+## 4. Dateien hinzufügen
+
+Folgende Dateien mit den jeweiligen Flash-Adressen eintragen:
+
+| Flash-Adresse | Datei                           |
+| ------------- | ------------------------------- |
+| `0x0`         | `bootloader.bin`                |
+| `0x8000`      | `partitions.bin`                |
+| `0x10000`     | `AMS_Display_V1.8.ino.bin`      |
+| `0x670000`    | `AMS_Display_V1.8.littlefs.bin` |
+
+---
+
+## 5. Flash Einstellungen
+
+Folgende Einstellungen verwenden:
+
+| Einstellung     | Wert   |
+| --------------- | ------ |
+| Flash Mode      | `Keep` |
+| Flash Frequency | `Keep` |
+| Flash Size      | `Keep` |
+
+---
+
+## 6. Optional: Flash komplett löschen
+
+Für eine saubere Neuinstallation empfohlen:
+
+* Auf **Erase Flash** klicken
+* Warten bis der Vorgang abgeschlossen ist
+
+---
+
+## 7. Firmware flashen
+
+* Auf **Program** klicken
+* Warten bis der Flash-Vorgang vollständig abgeschlossen ist
+
+Der ESP32-S3 startet anschließend automatisch neu.
+
+---
+
+# 📶 Erster Start im AP-Modus (Access Point)
+
+Wenn keine WLAN-Daten gespeichert sind oder kein bekanntes WLAN gefunden wird, startet das Gerät automatisch im AP-Modus.
+
+## Zugangsdaten
+
+| Einstellung | Wert          |
+| ----------- | ------------- |
+| IP-Adresse  | `192.168.4.1` |
+| SSID        | `AMS-Setup`   |
+| Passwort    | `12345678`    |
+
+---
+
+# ✅ Hinweis
+
+Beim ersten Start kann der Verbindungsaufbau einige Sekunden dauern.
+Nach Eingabe deiner W-LAN Daten und speichern dieser, kann es 1-2 Minuten dauern
+bis die Bestätigung kommt, dass die Daten übernommen wurden.
 
 ---
 
