@@ -191,6 +191,7 @@ Wenn keine WLAN-Daten gespeichert sind oder kein bekanntes WLAN gefunden wird, s
 # ✅ Hinweis
 
 Beim ersten Start kann der Verbindungsaufbau einige Sekunden dauern.
+
 Nach Eingabe deiner W-LAN Daten und speichern dieser, kann es 1-2 Minuten dauern
 bis die Bestätigung kommt, dass die Daten übernommen wurden.
 
