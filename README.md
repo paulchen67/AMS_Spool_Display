@@ -1,8 +1,3 @@
-<img width="1000" height="1094" alt="IMG_0232" src="https://github.com/user-attachments/assets/0b72a451-54be-472f-851a-68d7e84afecd" />
-<img width="1000" height="643" alt="IMG_0231" src="https://github.com/user-attachments/assets/af7aa073-38cf-4f34-9dce-83d9b42b65db" />
-
-
-
 AMS Display – Smart Filament Management für Bambu AMS
 
 Dieses Projekt ist ein eigenständiges Touch-Display für das Bambu AMS, mit dem sich Filament-Spulen komfortabel verwalten, tauschen und überwachen lassen – direkt am Gerät oder über eine Weboberfläche.
