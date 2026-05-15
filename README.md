@@ -1,4 +1,4 @@
-<img width="2864" height="3133" alt="IMG_0232" src="https://github.com/user-attachments/assets/861c5c97-c91e-4052-b7ea-d793d5880bd7" />
+<img width="1432" height="1516" alt="IMG_0232" src="https://github.com/user-attachments/assets/861c5c97-c91e-4052-b7ea-d793d5880bd7" />
 
 AMS Display – Smart Filament Management für Bambu AMS
 
