@@ -5,7 +5,10 @@
 
 AMS Display – Smart Filament Management für Bambu AMS
 
-Dieses Projekt ist ein eigenständiges Touch-Display für das Bambu AMS, mit dem sich Filament-Spulen komfortabel verwalten, tauschen und überwachen lassen – direkt am Gerät oder über eine Weboberfläche.
+Dieses Projekt ist ein eigenständiges Touch-Display für das Bambu AMS, mit dem sich Filament-Spulen komfortabel verwalten, tauschen und überwachen lassen – direkt am Gerät oder über eine Weboberfläche. Die Weiterentwicklung SpoolEdit vom AMS Display
+ist hier zu finden.
+
+https://github.com/paulchen67/AMS_SpoolEdit
 
 Einfaches Anklicken der gewünschten Spule, im NumPad Gewicht des aktuellen Drucks eingeben, Gewicht wird von der gewählten Spule abgezogen.
 
